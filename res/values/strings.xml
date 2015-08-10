@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SutraHR Low Orbit SMS Cannon</string>
+    <string name="title_activity_main">SutraHR Low Orbit SMS Cannon</string>
+    <string name="action_settings">SutraHR Low Orbit SMS Cannon</string>
+    <string name="phoneNumber">Enter Phone Numbers</string>
+    <string name="messageText">Enter your Message</string>
+    <string name="intentButton">View Inbox</string>
+    <string name="sendAndSaveButton">Send Quick SMS</string>
+    <string name="button_send">Upload CSV and Send SMS</string>
+    <string name="browsePath">Enter the path</string>
+    <string name="button_browse">Browse</string>
+    <string name="csv_viewer">Enter the Variables separated by commas</string>
+    <string name="Chars">Chars:</string>
+
+</resources>

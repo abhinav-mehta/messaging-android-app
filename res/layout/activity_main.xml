@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:scrollbars="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+        android:orientation="vertical"
+    	android:padding="10dp">
+    
+	    <EditText
+	        android:id="@+id/phoneNumber"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:hint = "@string/phoneNumber"        
+	        android:inputType="phone"  />
+	    
+	    
+		<EditText 
+		    android:id="@+id/messageText"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:minHeight="140dp"
+			android:hint = "@string/messageText" />
+		
+		<TextView 
+		    android:id="@+id/Chars" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+             
+					
+		
+		<EditText 
+		    android:id="@+id/csv_viewer"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:hint = "@string/csv_viewer"
+			android:visibility="gone"  />
+		
+		<Button
+		    android:id="@+id/sendAndSaveButton" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text = "@string/sendAndSaveButton" />
+
+		
+		<Button
+		    android:id="@+id/button_send"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/button_send"
+		    android:onClick="file_explorer"  />
+	
+		<Button
+		    android:id="@+id/intentButton" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text = "@string/intentButton" />
+		
+		
+
+	 
+	</LinearLayout>
+</ScrollView>
+
